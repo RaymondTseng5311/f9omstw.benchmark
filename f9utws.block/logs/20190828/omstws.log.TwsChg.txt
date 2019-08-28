@@ -1,0 +1,5 @@
+/home/fonwin/f9utws.block/logs/20190828/omstws.log.TwsChg.txt
+Count=0|Abandoned=0|Rejected=0|Sending=0|Queuing=0
+ReqSNO|T0|T1|T2|(T1-T0)|(T2-T1)
+T1-T0|50%=|75%=|90%=|99%=|99.9%=|99.99%=|Worst=
+T2-T1|50%=|75%=|90%=|99%=|99.9%=|99.99%=|Worst=

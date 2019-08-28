@@ -1,0 +1,9 @@
+IdEnabledFileNameEntryNameArgs
+DevDgramYDgramName=Dgram|AddTo=FpDevice
+DevFileIOYFileIOName=FileIO|AddTo=FpDevice
+DevTcpcYTcpClientName=TcpClient|AddTo=FpDevice
+DevTcpsYTcpServerName=TcpServer|AddTo=FpDevice
+MaIoYNamedIoManagerName=MaIo|DevFp=FpDevice|SesFp=FpSession|Cfg=MaIo.f9gv|SvcCfg="ThreadCount=2|Capacity=100"
+iOmsCoreYUtwsOmsCoreBrkId=8610|BrkCount=3|Cpu=19|Wait=Busy
+iOmsRcSvYRcSessionServerName=OmsRcSvr|Desp=f9OmsRc Server|AuthMgr=MaAuth|AddTo=FpSession
+iOmsRcSvAgentYOmsRcServerAgentOmsCore=omstws|Cfg=$TxLang={zh} $include:forms/ApiAll.cfg|AddTo=FpSession/OmsRcSvr

@@ -1,0 +1,64 @@
+20190828-132351.594785  4279[IMP  ]LogFile.OnStart|orig=./logs/20190828/fon9sys-0000.log|time+8=20190828132351.594785
+20190828-132351.594759  4280[IMP  ]TimerThread.ThrRun|name=Default.TimerThread
+20190828-132351.601900  4279[INFO ]$MemLock:mlockall(MCL_CURRENT|MCL_FUTURE)|info=OK!
+20190828-132351.601957  4279[INFO ]#Dgram|Plugins running
+20190828-132351.601970  4279[INFO ]#FileIO|Plugins running
+20190828-132351.601974  4279[INFO ]#TcpClient|Plugins running
+20190828-132351.601977  4279[INFO ]#TcpServer|Plugins running
+20190828-132351.601980  4279[INFO ]#NamedIoManager|Plugins running
+20190828-132351.602022  4279[INFO ]#UtwsOmsCore|Plugins running
+20190828-132352.601050  4281[IMP  ]MessageQueue.ThrRun|name=fon9.DefaultThreadPool|indexInPool=1
+20190828-132352.603042  4280[WARN ]IoManager.MaIo.CheckOpenDevice|cfgid=iOmsRcSv|ses=OmsRcSvr|sesArgs={}|dev=TcpServer|devArgs={6604}|res=3|err=20190828052352.603037|Session factory not found.|
+20190828-132352.603270  4282[IMP  ]MessageQueue.ThrRun|name=fon9.DefaultThreadPool|indexInPool=2
+20190828-132352.603844  4284[IMP  ]MessageQueue.ThrRun|name=fon9.DefaultThreadPool|indexInPool=4
+20190828-132352.604423  4283[IMP  ]MessageQueue.ThrRun|name=fon9.DefaultThreadPool|indexInPool=3
+20190828-132352.647984  4279[INFO ]#RcSessionServer|Plugins running
+20190828-132352.648003  4279[INFO ]#OmsRcServerAgent|Plugins running
+20190828-132352.648048  4285[IMP  ]OmsBackend.ThrRun|name=omstws_20190828_Backend
+20190828-132352.648542  4286[IMP  ]MessageQueue.ThrRun|name=omstws_20190828|indexInPool=1
+20190828-132352.648611  4286[INFO ]OmsThread|name=omstws_20190828|Type=f9omstw::OmsCoreByThread<fon9::WaitPolicy_Spin<fon9::SpinMutex<fon9::BusySleepPolicy> > >|Cpu=19:OK
+20190828-132352.649048  4279[IMP  ]SysEnv|ProcessId=4279
+20190828-132352.649049  4279[IMP  ]SysEnv|CommandLine=home/fonwin/devel/output/f9omstw/release/f9utws/f9utws
+20190828-132352.649050  4279[IMP  ]SysEnv|ExecPath=/home/fonwin/f9utws.busy
+20190828-132352.649051  4279[IMP  ]SysEnv|ConfigPath=fon9cfg/
+20190828-132352.649051  4279[IMP  ]SysEnv|HostId=221
+20190828-132353.651938  4287[IMP  ]FdrThread.ThrRun|name=MaIo.epoll|index=1|Cpu=-1:|Wait=Block|Capacity=100
+20190828-132353.651950  4284[INFO ]IoManager.MaIo.DeviceState|dev=7f361518e370|cfgid=iOmsRcSv|st=3.Opening|OmsRcSvr={}|TcpServer={6604}
+20190828-132353.652022  4284[INFO ]IoManager.MaIo.DeviceState|dev=7f361518e370|cfgid=iOmsRcSv|st=9.Listening|id={L=0.0.0.0:6604}|info=
+20190828-132353.652261  4288[IMP  ]FdrThread.ThrRun|name=MaIo.epoll|index=2|Cpu=-1:|Wait=Block|Capacity=100
+20190828-132355.653136  4289[IMP  ]FdrThread.ThrRun|name=UtwSEC_io.epoll|index=1|Cpu=-1:|Wait=Block|Capacity=0
+20190828-132355.653147  4284[INFO ]IoManager.UtwSEC_io.DeviceState|dev=7f361532c280|cfgid=LH1|st=3.Opening|FIX44={BrkId=8610|SocketId=H4|Pass=9999|Fc=}|TcpClient={192.168.1.33:10005|Bind=49004|ReuseAddr=Y}
+20190828-132355.653431  4290[IMP  ]FdrThread.ThrRun|name=UtwSEC_io.epoll|index=2|Cpu=-1:|Wait=Block|Capacity=0
+20190828-132355.653946  4283[INFO ]IoManager.UtwSEC_io.DeviceState|dev=7f361532c280|cfgid=LH1|st=7.LinkReady|id={R=192.168.1.33:10005|L=192.168.1.221:49004}|info=
+20190828-132355.662302  4289[INFO ]IoManager.UtwSEC_io.SessionState|dev=7f361532c280|cfgid=LH1|st=ApReady
+20190828-132400.113657  4287[INFO ]TcpServer.Accepted|dev=7f35e8001590|seq=1|R=127.0.0.1:58286|L=127.0.0.1:6604
+20190828-132400.113694  4281[INFO ]IoManager.MaIo.DeviceState|dev=7f35e8001590|st=7.LinkReady|id={R=127.0.0.1:58286|L=127.0.0.1:6604}|info=
+20190828-132400.127113  4288[INFO ]UserMgr.AuthUpdate|table=UserSha256|from=127.0.0.1|authcId=fonwin
+20190828-132400.127166  4288[INFO ]IoManager.MaIo.SessionState|dev=7f35e8001590|st=|RemoteAp=f9omsApi.0|from=127.0.0.1|user=fonwin|Last logon: 2019/08/28 13:21:25 from console:221
+20190828-133014.571328  4279[IMP  ]main.quit|cause=console:<Signal TERM>
+20190828-133014.571406  4281[INFO ]#Dgram|Plugins stop
+20190828-133014.571411  4281[INFO ]#FileIO|Plugins stop
+20190828-133014.571411  4283[INFO ]IoManager.MaIo.DeviceState|dev=7f361518e370|cfgid=iOmsRcSv|st=13.Closed|id={L=0.0.0.0:6604}|info=Parent clear
+20190828-133014.571413  4281[INFO ]#TcpClient|Plugins stop
+20190828-133014.571413  4283[INFO ]IoManager.MaIo.DeviceState|dev=7f361518e370|cfgid=iOmsRcSv|st=14.Disposing|id={L=0.0.0.0:6604}|info=Parent clear
+20190828-133014.571414  4281[INFO ]#TcpServer|Plugins stop
+20190828-133014.571415  4281[INFO ]#NamedIoManager|Plugins stop
+20190828-133014.571416  4281[INFO ]#UtwsOmsCore|Plugins stop
+20190828-133014.571417  4281[INFO ]#RcSessionServer|Plugins stop
+20190828-133014.571417  4281[INFO ]#OmsRcServerAgent|Plugins stop
+20190828-133014.571459  4283[INFO ]IoManager.UtwSEC_io.DeviceState|dev=7f361532c280|cfgid=LH1|st=13.Closed|id={R=192.168.1.33:10005|L=192.168.1.221:49004}|info=Parent clear
+20190828-133014.571461  4283[INFO ]IoManager.UtwSEC_io.DeviceState|dev=7f361532c280|cfgid=LH1|st=14.Disposing|id={}|info=Parent clear
+20190828-133014.571464  4281[INFO ]IoManager.MaIo.DeviceState|dev=7f35e8001590|st=14.Disposing|id={R=127.0.0.1:58286|L=127.0.0.1:6604}|info=Parent clear
+20190828-133014.571666  4285[IMP  ]OmsBackend.ThrRun.End|name=omstws_20190828_Backend
+20190828-133014.571999  4286[IMP  ]MessageQueue.ThrRun.End|name=omstws_20190828|indexInPool=1
+20190828-133014.574977  4279[INFO ]OmsThread|name=omstws_20190828|Type=f9omstw::OmsCoreByThread<fon9::WaitPolicy_Spin<fon9::SpinMutex<fon9::BusySleepPolicy> > >|Cpu=19:OK
+20190828-133014.575216  4279[INFO ]OmsThread|name=omstws_20190828|Type=f9omstw::OmsCoreByThread<fon9::WaitPolicy_Spin<fon9::SpinMutex<fon9::BusySleepPolicy> > >|Cpu=19:OK
+20190828-133014.597862  4288[IMP  ]FdrThread.ThrRun.End|name=MaIo.epoll
+20190828-133014.597862  4289[IMP  ]FdrThread.ThrRun.End|name=UtwSEC_io.epoll
+20190828-133014.597862  4287[IMP  ]FdrThread.ThrRun.End|name=MaIo.epoll
+20190828-133014.597874  4290[IMP  ]FdrThread.ThrRun.End|name=UtwSEC_io.epoll
+20190828-133014.628192  4284[IMP  ]MessageQueue.ThrRun.End|name=fon9.DefaultThreadPool|indexInPool=4
+20190828-133014.628255  4283[IMP  ]MessageQueue.ThrRun.End|name=fon9.DefaultThreadPool|indexInPool=3
+20190828-133014.628319  4282[IMP  ]MessageQueue.ThrRun.End|name=fon9.DefaultThreadPool|indexInPool=2
+20190828-133014.628382  4281[IMP  ]MessageQueue.ThrRun.End|name=fon9.DefaultThreadPool|indexInPool=1
+20190828-053014.652200  4279[IMP  ]LogFile.OnDestroy|orig=./logs/20190828/fon9sys-0000.log|time+8=20190828132351.594785
